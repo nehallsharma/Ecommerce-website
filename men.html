@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/abd17d1dba.js" crossorigin="anonymous"></script>
+  
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+    <!-- style css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  </head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>T</span>reasure</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="btn btn-success text-dark" type="submit"> <a href="sign-in.html">Sign In</a></button>
+
+          <a href="cart.html">
+            <div class="cart">
+              <i class="bi bi-cart2" ></i>
+              <div id="cartAmount" class="cartAmount">0</div>
+            </div>
+          </a>
+          
+        </div>
+        
+      </div>
+      
+    </nav>
+  </header>
+
+
+  <div>
+    <img src="images/Mens.desktop.jpg" style="height: 300px;max-width: 100%;padding: 10px;">
+  </div>
+  <h1 class="shop" style="font-family:'Times New Roman', Times, serif;color: rgb(66, 70, 71);padding-bottom: 20px;padding-top: 20px;">____Men____________________________________________</h1>
+  <div class="shop" id="shop">
+
+ 
+  </div>
+
+</body>
+<script src="js/Data.js"></script>
+<script src="js/main.js"></script>
+
+</html>
